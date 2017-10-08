@@ -1,0 +1,10 @@
+Dùng clone để tạo ra bản copy của đối tượng vừa được khởi tạo
+- chú ý nếu không dùng clone:
+Student st1 = new Student();
+Student st2 = st1;
+phép gán st2 = st1 là gán bằng địa chỉ => khi st1 thay đổi thì st2 thay đổi theo
+
+- khi dùng clone:
+Student st1 = new Student();
+Student st2 = (Student) st1.clone();
+phép gán này là gán giá trị của st1 cho st2, nên khi st1 thay đổi thì st2 không thay đổi

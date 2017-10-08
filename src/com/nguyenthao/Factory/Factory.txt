@@ -1,0 +1,7 @@
+Tạo ra 1 đối tượng to (Khác với AbstractFactory là tạo ra nhiều đối tượng to) 
+Trong đối tượng to lại có nhiều đối tượng con
+Ví dụ hàm main tạo ra 1 đối tượng ShapeFactory
+trong ShapeFactory lại chứa Square, Rectangle, Circle
+
+Nếu sau này muốn thêm một đối tượng con thì chỉ cần cho đối tượng con này implements interface
+Shape là được

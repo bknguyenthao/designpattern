@@ -1,0 +1,21 @@
+Tạo ra một nhóm các đối tượng có tính chất tương tự nhau
+Ví dụ: AbstractFactory shapeFactory = FactoryProducer.getFactory("SHAPE");
+khi đó ta đã có một nhóm các đối tượng bao gồm : Rectangle, Circle, Square nằm trong shapeFactory
+khi sử dụng một đối tượng cụ thể:   Shape shape1 = shapeFactory.getShape("CIRCLE");
+									Shape shape2 = shapeFactory.getShape("RECTANGLE");
+									Shape shape3 = shapeFactory.getShape("SQUARE");
+
+
+Cũng có thể hiểu AbstractFactory tạo ra nhiều đối tượng to, trong đối tượng to này lại chứa nhiều
+đối tượng con có tính chất tương tự nhau
+
+Trong ví dụ này, abstract factory tạo ra 2 đối tượng to là Shape và Color
+Trong Shape lại có Square, Circle, Rectangle
+Trong Color lại có Red, Orange, Blue
+
+
+Nếu sau này muốn tạo thêm một đối tượng to thì chỉ cần chỉnh lại một chút trong hàm getFactory
+trong lớp FactoryProducer
+
+Còn nếu sau này muốn tạo thêm đối tượng con, thì làm tương tự như bên Factory Pattern
+

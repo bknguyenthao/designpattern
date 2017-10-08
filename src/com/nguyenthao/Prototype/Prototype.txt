@@ -1,0 +1,1 @@
+Prototype: Tao ra mot clone cua mot doi tuong, de khi dung den thi khong can new mot doi tuong moi

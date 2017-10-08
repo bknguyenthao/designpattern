@@ -1,0 +1,6 @@
+- Class old co 1 function A
+- Class new co 1 function B
+- Class Main muon goi function A nhung ket qua tra ve phai tinh toan theo kieu
+cua function B boi vi:
++ Function B co nhieu chuc nang cai tien hon 
++ Main da goi function A tu truoc roi nen khong muon thay doi

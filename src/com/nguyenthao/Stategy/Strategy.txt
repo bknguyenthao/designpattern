@@ -1,0 +1,3 @@
+Tạo ra một đối tượng có phương thức hoạt động thay đổi theo ngữ cảnh
+Trong ví dụ này chúng ta tạo ra đối tượng Context có phương thức executeStrategy thay đổi
+tùy theo cách khởi tạo đối tượng context

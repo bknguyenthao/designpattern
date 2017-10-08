@@ -1,0 +1,11 @@
+Đối tượng Manager có sử dụng 3 đối tượng là IDatabase, IEmail, ILogger
+nhưng Manager không new 3 đối tượng trên mà chỉ khai báo bình thường(Rõ ràng là manager phụ
+thuộc vào 3 đối tượng trên, chúng ta gọi là tiêm nhiễm sự phụ thuộc), khi đến nơi sử dụng cuối cùng(hàm main) thì mới new.
+
+Phụ thuộc ở đây có điểm ưu việt đó là cả 3 đối tượng truyền vào đều là interface, vì thế
+khi đến nơi sử dụng cuối cùng, người ta có thể truyên vào một đối tượng bất kỳ thuộc interface đó
+-> ta có thể nói phụ thuộc ( vào interface) nhưng không bị ràng buộc vào bất cứ đối tượng nào
+
+Trong spring framework thì đến nơi sử dụng cũng không cần new, chỉ cần khai báo đối tượng là interface
+rồi sử dụng ( bởi vì chúng ta khi khai báo đối tượng đã kèm theo autowire -> không cần new đối tượng 
+vẫn sử dụng được)

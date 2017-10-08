@@ -1,0 +1,9 @@
+Interface IPerson có rất nhiều phương thức, khi class Student implement interface IPerson
+nó phải overide tất cả các phương thức của interface đó, mặc dù có một vài phương thức không 
+cần dùng đến.
+
+Ta tạo ra class Adapter để khắc phục vấn đề này, class Adapter sẽ implement interface IPerson
+rồi overide tất cả các phương thức của interface
+
+Khi đó class Student chỉ cần extend Adapter rồi chỉ việc overide lại những phương thức
+cần dùng mà thôi

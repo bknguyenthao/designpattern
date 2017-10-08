@@ -1,0 +1,2 @@
+Tạo ra một đối tượng có khả năng chứa các đối tượng khác cùng loại
+Các đối tượng khác lại có khả năng chứa các đối tượng khác cùng loại

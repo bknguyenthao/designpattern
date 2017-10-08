@@ -1,0 +1,2 @@
+Data Access Object Pattern hay DAO Pattern được sử dụng để tách thao tác xử lý dữ liệu 
+riêng biệt với tầng nghiệp vụ trong khi xây dựng chương trình
